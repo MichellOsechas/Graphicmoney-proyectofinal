@@ -5,7 +5,10 @@
     font-size: 1.5em;
 }
 .seccion-navbar {
-   /* position: fixed;*/
+   position: fixed;
+   z-index: 2;
+   background-color: #ecf7f8;
+   width: 100%;
 }
 .container-nav-father {
     display: flex;
@@ -27,6 +30,7 @@ body {
     font-size: 1em;
     background-color: #ecf7f8;
     color: #1d2345;
+    overflow-x: hidden;
 
 }
 
@@ -43,7 +47,10 @@ body {
 a {
     margin-right: 2em;
 }
-
+.carousel {
+    padding-top: 10em;
+    padding-bottom: 1em;
+}
 .carousel-caption {
     position: absolute;
     right: 15%;
